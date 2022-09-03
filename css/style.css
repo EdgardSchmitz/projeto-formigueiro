@@ -1,0 +1,269 @@
+body{
+    background: linear-gradient(135deg, rgba(4,4,4,1) 0%, rgba(144,141,156,1) 68%, rgba(231,225,240,1) 100%);
+    color: rgb(77, 75, 75);
+}
+
+.Menu{
+    padding-right: 10%;
+    }
+
+.topo{
+
+    margin: 0 3% 0 3%;
+    color: rgb(12, 168, 64);
+    
+}
+
+.container1{
+    margin-top: 20px;
+    height: 500px;
+    background: linear-gradient(135deg, rgba(4,43,5,1) 0%, rgba(79,162,89,1) 68%, rgba(139,240,156,1) 100%);
+
+}
+
+.formiga_topo{
+    width: 500px;
+}
+
+.titulo_topo{
+    margin-top: 80px;
+    color: rgb(194, 190, 190);
+    font-family: 'Abril Fatface', cursive;
+}
+
+.texto_topo{
+    margin-top: 30px;
+    text-align: center;
+    color: rgb(233, 222, 222);
+    font-family: 'Ibarra Real Nova', serif;
+    font-size: 20px;
+}
+
+.container1{
+    height: 500px;
+}
+
+.titulo_habitat{
+    margin-top: 80px;
+    color: rgb(192, 221, 247);
+    font-family: 'Abril Fatface', cursive;
+}
+
+
+.texto_habitat{
+    margin-top: 30px;
+    text-align: center;
+    color: rgb(192, 221, 247);
+    font-family: 'Ibarra Real Nova', serif;
+    font-size: 20px;
+}
+
+.formigueiro_habitat{
+    width: 600px;
+    margin-top: 50px;
+    border-radius: 50px;
+}
+
+.container2{
+    height: 500px;
+    margin: 20px 0px 100px 90px;
+    }
+
+.titulo_especies{
+    text-align: center;
+    margin-bottom: 50px;
+    color: aliceblue;
+ 
+}
+
+.card{
+    align-items: center;
+    color: black;
+    text-align: justify;
+    box-shadow:33px 31px 19px -15px rgba(0,0,0,0.53)
+}
+
+.card img{
+    width: 200px;
+    }
+
+.card-title{
+    text-align: center;
+}
+
+
+.btn_modal {
+    font-size:15px;
+    font-family:Arial;
+    width:140px;
+    height:50px;
+    border-width:1px;
+    color:#fff;
+    border-color:#4b8f29;
+    font-weight:bold;
+    border-top-left-radius:20px;
+    border-top-right-radius:20px;
+    border-bottom-left-radius:20px;
+    border-bottom-right-radius:20px;
+    box-shadow: 0px 10px 14px -7px #3e7327;
+    text-shadow: 0px 1px 0px #5b8a3c;
+    background: linear-gradient(129deg, rgba(13,99,1,1) 0%, rgba(12,179,20,1) 39%, rgba(226,226,226,1) 100%);
+}
+
+.btn_modal:hover {
+    background: linear-gradient(#72b352, #77b55a);
+}
+                
+
+.container3{
+    margin-top: 70px;
+    padding-bottom: 100px;
+    align-items: center;
+    background: linear-gradient(135deg, rgba(4,43,5,1) 0%, rgba(79,162,89,1) 68%, rgba(139,240,156,1) 100%);
+}
+.titulo_colonia{
+    text-align: center;
+    background: #e7dbdb;
+    box-shadow:  20px 20px 60px #05050577;
+    padding: 10px 0 10px 0;
+    border-radius: 50px;
+    
+}
+.texto_colonia{
+    margin: 50px 40px 30px 40px;
+    color: rgb(231, 238, 230);
+    text-align: center;
+    
+}
+
+#video1{
+    padding-left: 300px;
+}
+
+.titulo_alimento{
+    text-align: center;
+    background: #e7dbdb;
+    box-shadow:  20px 20px 60px #05050577;
+    padding: 10px 0 10px 0;
+    border-radius: 50px;
+}
+.texto-alimento{
+    text-align: justify;
+}
+
+.container4{
+    padding: 50px 0 50px 0;
+}
+
+.container_texto{
+    padding: 70px 70px;
+    color: white;
+}
+
+.foto_alimento{
+    border-radius: 20px;
+}
+
+.me-3 a{
+    text-decoration: none;
+    color: #e7dbdb;
+    margin-left: 30px;
+}
+
+.me-3 a:hover{
+    color: #77b55a;
+}
+
+/*media query*/
+
+@media (max-width : 1000px) {
+    .formiga_topo{
+        width: 400px;
+        margin-top: 100px;
+        padding-left: 80px;
+    }
+    .texto_topo{
+        margin-top: 50px;
+        text-align: justify;
+        color: rgb(233, 222, 222);
+        font-family: 'Ibarra Real Nova', serif;
+    }
+    .container1{
+        height: 550px;
+    }
+    #col1{
+        width: 300px;
+    }
+    
+}
+
+@media (max-width : 768px) {
+    .formiga_topo{
+        display: none;
+    }
+    .texto_topo{
+        margin-top: 50px;
+        text-align: justify;
+        color: rgb(233, 222, 222);
+        font-family: 'Ibarra Real Nova', serif;
+                
+    }
+    #col1{
+        display:none;
+    }
+
+    .formigueiro_habitat{
+        width: 500px;
+    }
+}
+
+@media (max-width : 500px) {
+
+    .texto_topo{
+        margin-top: 50px;
+        text-align: justify;
+        color: rgb(233, 222, 222);
+        font-family: 'Ibarra Real Nova', serif;
+        font-size: 16pt;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+      
+    .formigueiro_habitat{
+        width: 300px;
+    }
+
+    .container2{
+        display: none;
+    }
+
+    #video1{
+        display: none;
+    }
+
+    .foto_alimento{
+        width: 350px;
+        margin-bottom: 20px;
+    }
+
+    .titulo_alimento{
+        width: 400px;
+        margin-left: 40px;
+    }
+
+    .titulo_colonia{
+        width: 400px;
+        margin-left: 40px;
+        
+    }
+
+    
+}
+
+
+
+
+
+
+
