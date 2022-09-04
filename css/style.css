@@ -176,6 +176,55 @@ body{
 
 /*media query*/
 
+@media (max-width : 1200px) {
+
+    .card{
+        
+        align-items: stretch;
+        margin-left: 200px;
+        text-align: justify;
+        box-shadow:33px 31px 19px -15px rgba(0,0,0,0.53)
+    }
+
+
+    #cards_tamanho2{
+        display: none;
+    }
+
+    .card img{
+        width: 200px;
+        margin-left: 50px;
+        }
+
+    .btn_modal{
+            margin-left: 50px;
+        }
+
+    #video1{
+        width: 800px;
+        height: 300px;
+        padding-left: 30%;
+    }
+
+    .foto_alimento{
+       
+        margin-bottom: 20px;
+        margin-left: 15%;
+    }
+
+    .texto_habitat{
+        text-align: justify;
+        font-size: 13pt;
+    }
+
+    .formigueiro_habitat{
+        width: 500px;
+    }
+
+
+
+}
+
 @media (max-width : 1000px) {
     .formiga_topo{
         width: 400px;
@@ -193,6 +242,55 @@ body{
     }
     #col1{
         width: 300px;
+    }
+
+    .formigueiro_habitat{
+        width: 700px;
+    }
+
+    #video1{
+        width: 700px;
+        height: 300px;
+        padding-left: 100px;
+    }
+
+    .card{
+        
+        align-items: stretch;
+        margin-left: 200px;
+        text-align: justify;
+        box-shadow:33px 31px 19px -15px rgba(0,0,0,0.53)
+    }
+    #cards_formigas{
+        display: flex;
+        flex-flow: column wrap;
+        
+    }
+    
+    .btn_modal{
+        margin-left: 50px;
+    }
+
+    .container2{
+        height:800px;
+        width:550px
+    }
+
+    .titulo_especies{
+        margin-left: 50px;
+    }
+
+    .card-text{
+        font-size: 8pt;
+    }
+    
+    .card img{
+        width: 200px;
+        margin-left: 50px;
+        }
+    
+    .card-title{
+        text-align: center;
     }
     
 }
@@ -215,6 +313,20 @@ body{
     .formigueiro_habitat{
         width: 500px;
     }
+
+    .container2{
+        display: none;
+    }
+
+    #video1{
+        display: none;
+    }
+    .foto_alimento{
+        width: 350px;
+        height: 300px;
+        margin-bottom: 20px;
+        margin-left: 10%;
+    }
 }
 
 @media (max-width : 500px) {
@@ -223,7 +335,6 @@ body{
         margin-top: 50px;
         text-align: justify;
         color: rgb(233, 222, 222);
-        font-family: 'Ibarra Real Nova', serif;
         font-size: 16pt;
         margin-left: 10px;
         margin-right: 10px;
@@ -243,8 +354,10 @@ body{
     }
 
     .foto_alimento{
-        width: 350px;
+        width: 250px;
+        height: 250px;
         margin-bottom: 20px;
+        margin-left: 15%;
     }
 
     .titulo_alimento{
